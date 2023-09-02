@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+
+:root{
+    --main:'Abril Fatface', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#hero{
+    width: 100%;
+    height: 110vh;
+    background: url(./dark\ jungle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#hero .one{
+    position: fixed;
+    left:0;
+    bottom:-200px;
+    object-fit: cover;
+    width:100vw;
+    height:500px;
+    /* mix-blend-mode: darken; */
+    z-index: 1;
+}
+#hero .one-{
+    position:absolute;
+    left:0;
+    bottom:-200px;
+    object-fit: cover;
+    width:100vw;
+    height:500px;
+    /* mix-blend-mode: darken; */
+    z-index: 1;
+}
+
+#hero .two{
+    width:600px;
+    height:700px;
+    position: fixed;
+    right:-150px;
+    bottom:-290px;
+    object-fit: cover;
+    z-index:1;
+    /* mix-blend-mode: darken; */
+}
+#hero .two-{
+    width:600px;
+    height:700px;
+    position:absolute;
+    right:-150px;
+    bottom:-290px;
+    object-fit: cover;
+    z-index:1;
+    /* mix-blend-mode: darken; */
+}
+#hero .three{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:-300px;
+    object-fit: contain;
+    z-index:1;
+
+    /* mix-blend-mode: darken; */
+}
+#hero .four{
+    z-index:1;
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:-500px;
+    bottom:-500px;
+    object-fit: contain;
+    /* mix-blend-mode:difference; */
+
+    /* mix-blend-mode: darken; */
+}
+#hero .four-{
+    z-index:1;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:-500px;
+    bottom:-500px;
+    object-fit: contain;
+    /* mix-blend-mode:difference; */
+
+    /* mix-blend-mode: darken; */
+}
+
+
+#hero h1{
+    color: white;
+    position:relative;
+    z-index:0;
+    
+    font-family: var(--main);
+    font-size:10vw;
+}
+#hero p{
+    color: white;
+    position: absolute;
+    bottom:300px;
+    z-index:2;
+    font-size:2vw;
+    font-family: var(--main);
+   
+}
+
+#hero p span{
+    font-size:4vw;
+}
+
+#hero .five{
+    width:500px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right:-500px;
+    transform: translateY(400px);
+    
+}
+
+
+
+
+#more{
+    width: 100%;
+    height: 100vh;
+    background: url(./dark.jpg);
+    background-size:fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:darken;
+    position: relative;
+}
+#more .sec-{
+    position: absolute;
+    width:200%;
+    height:100%;
+    object-fit: contain;
+    left:-57%;
+    top:-100px;
+}
+
+#more .tarzan{
+    position: absolute;
+    right:-400px;
+    top:-400px;
+    
+}
+#more .tree{
+    position: absolute;
+    right:-2300px;
+    top:-600px;
+    object-fit: contain;
+    width:250%;
+    height:150%;
+}
+
+#more h2 ,h6{
+    font-family: var(--main);
+    color: white;
+    transform: translateY(200px);
+   
+}
+#more h2{
+    font-size:200px;
+    line-height: 1;
+    position: relative;
+   
+}
+#more h6{
+    font-size:60px;
+    line-height:1;
+    font-weight:400;
+    position: relative;
+}
+#more p{
+    margin-top:-40px;
+    font-size:20px;
+    line-height:1;
+    font-weight:100;
+    color: white;
+    position: relative;
+    line-height:1.3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:1px;
+    transform: translateY(200px);
+    
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.more-con{
+  
+    width:min-content;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    
+}
